@@ -21,7 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyectos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolioap2021.web.app")
+//@CrossOrigin(origins = "http://localhost:4200")
 
 public class ProyectosController {
     
